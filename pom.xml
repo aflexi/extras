@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>net.aflexi</groupId>
+		<artifactId>aflexi</artifactId>
+		<version>1.2</version>
+	</parent>	
+	<groupId>net.aflexi.extras</groupId>
+	<artifactId>aflexi-extras</artifactId>
+	<packaging>pom</packaging>
+
+	<name>Aflexi Extras</name>
+	<description>Extra packages that may be used in other projects or modules</description>
+
+	<modules>
+		<module>groovy</module>
+	</modules>
+</project>

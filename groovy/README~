@@ -1,0 +1,23 @@
+===============================
+README for aflexi-extras-groovy
+
+Author: yclian
+Since: 2.1.20100227 
+Version: 2.1.20100227
+===============================
+
+Overview
+--------
+This module contains Groovy scripts that connect to our XML-RPC services. You can find them in the 'net.aflexi.groovy.xmlrpc' package.
+
+Building with Maven
+-------------------
+
+1. Install the parent POM with:
+
+	mvn install -f parent.pom.xml -N
+
+2. Install the library with:
+
+	mvn install
+
